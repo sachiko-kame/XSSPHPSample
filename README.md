@@ -49,7 +49,7 @@ javascript:alert('aa')
 ```
 
 # その他
-sample1が脆弱性ある方して作成しています。
+sample1が脆弱性ある方として作成しています。
 
 # 実際攻撃のイメージ動画
 [https://user-images.githubusercontent.com/20424289/184545517-4939838a-1509-416c-83dd-ff2d1ab735d7.mov](https://github.com/sachiko-kame/XSSPHPSample/issues/1)
