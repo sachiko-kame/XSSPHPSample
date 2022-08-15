@@ -2,6 +2,14 @@
 $name1 = $_GET['name1'];
 $name2 = $_GET['name2'];
 $name3 = $_GET['name3'];
+
+
+//$name4の場合(httpやhttpsのもののみ許可する) //本来はもっと厳密に
+if(preg_match('/^(https|http):(.*)/', $_GET['name4'])){
+    $name4 = $_GET['name4'];
+}else{
+    $name4 = "";
+}
 ?>
 
 <html lang="ja">
