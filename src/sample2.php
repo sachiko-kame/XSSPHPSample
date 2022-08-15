@@ -26,7 +26,8 @@ if(preg_match('/^(https|http):(.*)/', $_GET['name4'])){
 <input type="button" value="<?php echo htmlspecialchars($name3) ?>">
 
 <a href="<?php echo htmlspecialchars($name4) ?>">aaaa</a>
-<a href=<?php echo htmlspecialchars($name4) ?>>aaaa</a>
+<!-- 以下『"』で囲っていないで非推奨のため今回コメントアウトしています -->
+<!-- <a href=<?php echo htmlspecialchars($name4) ?>>aaaa</a> -->
 
 <body>
   <form action="sample2.php" method="get">
@@ -34,8 +35,6 @@ if(preg_match('/^(https|http):(.*)/', $_GET['name4'])){
     name2: <input type="text" name="name2" >
     name3: <input type="text" name="name3" >
     name4: <input type="text" name="name4" >
-    XXXXX: <input type="text" name="XXXXX" value="<?php echo htmlspecialchars($name3) ?>">
-    XXXXX: <input type="text" name="XXXXX" value="<?php echo htmlspecialchars($name3) ?>">
     <input type="submit" />
   </form>
 </body>
