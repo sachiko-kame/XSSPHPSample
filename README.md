@@ -20,7 +20,7 @@ $ docker run -dit --name my-samle123 -p 8089:80 samle123
 http://192.168.99.100:8089/sample1.php
 
 # 注意
-php変える酒では表示同じなため、php変更時は以下コマンド打ってください。
+php変えるだけでは表示同じなため、php変更時は以下コマンド打ってください。
 ```
 $ docker stop my-samle123
 $ docker rm my-samle123
